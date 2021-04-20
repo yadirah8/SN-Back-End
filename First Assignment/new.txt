@@ -1,0 +1,16 @@
+Task 1
+1. After creating a github account.I clicked on the new button.
+2. I then named the Repo SN Back End and left it on public and submitted
+
+Task 2
+1. I pulled the github repo SN Back End.
+2. I then created a folder First Assignment
+
+Task 3
+1. I added a new text file new.txt
+2. I used git add . to add the new files
+3. Then used git commit -m "first commit" to commit the added files
+4. I created a branch with git branch -M main 
+5. I then added the remote repo link https://github.com/yadirah8/SN-Back-End.git
+6. Then i pushed to the repo with git push -u origin main
+
