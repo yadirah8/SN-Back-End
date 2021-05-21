@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+<body>
+    <div class="container">
+        <div class="wrapper">
+            <div class="title">Registration Form</div>
+            <form action="" method="post" id="form_id">
+                <div class="form-wrapper">
+                    <label class="form-label" for="fname">Firstname</label><br>
+                    <input class="form-input" type="text"  placeholder="Firstname" id="fname" required>
+                </div>
+                <div class="form-wrapper">
+                    <label class="form-label" for="lname">Lastname</label><br>
+                    <input class="form-input" type="text" placeholder="Lastname" id="lname" required>
+                </div>
+                <div class="form-wrapper">
+                    <label class="form-label" for="email">Email Address</label><br>
+                    <input class="form-input" type="email" id="email" placeholder="Email Address" name="email" required>
+                </div>
+                <div class="form-wrapper">
+                    <label class="form-label" for="phone">Phone No.</label><br>
+                    <input class="form-input" type="tel" placeholder="Phone Number" id="phone" required>
+                </div>
+                <div class="form-wrapper">
+                    <label class="form-label" for="password">Password</label><br>
+                    <input class="form-input" type="password" id="password" placeholder="Password" name="password" required>
+                </div>
+                <br>
+                <div class="form-button">
+                    <button type="submit" id="submit-btn" class="submit-btn" onclick="submitHandler()">Submit</button>
+                </div>
+            </form>
+            </div>
+        </div>
+    <script src="form.js"></script>
+</body>
+</html>
